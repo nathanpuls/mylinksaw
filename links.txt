@@ -83,7 +83,10 @@ Add short link:wyr.es/a
 Cerner:https://cernltca.cernerworks.com/Citrix/PRODweb/
 Outlook:https://outlook.office.com/mail/
 RN Chart:https://nursing-tool.bubbleapps.io/version-test/sa
-Copy: https://qk.rs/rt/
+Copy - qk.rs/rt: https://qk.rs/rt/
 Discord: d.wyr.es
-Raindrop Bookmarks:https://raindrop.io/natepuls/links-50593298/search/sort=-created&perpage=30&page=0&search=
-My Linksaw Links.txt : https://github.com/nathanpuls/mylinksaw/blob/main/links.txt
+Raindrop Homepage:https://raindrop.io/natepuls/links-50593298/search/sort=-created&perpage=30&page=0&search=
+Raindrop Bookmarks:https://raindrop.io/natepuls/links-50593298/search/sort=-created&perpage=30&page=0&search=$
+Raindrop Tags:https://raindrop.io/natepuls/links-50593298/search/sort=-created&perpage=30&page=0&search=%23$
+View links.txt : https://github.com/nathanpuls/mylinksaw/blob/main/links.txt
+Edit links.txt:https://github.com/nathanpuls/mylinksaw/edit/main/links.txt
