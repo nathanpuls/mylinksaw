@@ -76,7 +76,6 @@ Linksaw User:https://linksaw.com/t8/?user=$
 Cloudflare Page Rules:https://dash.cloudflare.com/ed3b0af15e1c2b8a6a351cc929b0a312/$/rules/page-rules
 Doc:https://qk.rs/doc
 qk.rs:https://qk.rs/$
-Github Actions:https://github.com/nathanpuls/$/actions
 Twins:wyr.es/twins
 Add short link:wyr.es/a
 Cerner:https://cernltca.cernerworks.com/Citrix/PRODweb/
