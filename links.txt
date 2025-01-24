@@ -92,4 +92,4 @@ Edit links.txt:https://github.com/nathanpuls/mylinksaw/edit/main/links.txt
 Family:https://photos.google.com/share/AF1QipNzxpw5kMerhsGLdbRDEkkLVgX36MUA9pLBXFM18h0SjYxMGvj1iDxXiANzqTgFxA?key=QzRYWEZZaFoxajIxY25mZ3hjc3JXb2FucndaSEpB
 Call:https://linksaw.com/call/
 Teams:https://teams.microsoft.com/v2/
-
+NYT Connections:https://www.nytimes.com/games/connections
