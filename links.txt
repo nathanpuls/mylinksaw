@@ -93,3 +93,5 @@ Family:https://photos.google.com/share/AF1QipNzxpw5kMerhsGLdbRDEkkLVgX36MUA9pLBX
 Call:https://linksaw.com/call/
 Teams:https://teams.microsoft.com/v2/
 NYT Connections:https://www.nytimes.com/games/connections
+67:https://uttyler.instructure.com/courses/45365
+68:https://uttyler.instructure.com/courses/46876
