@@ -11,7 +11,7 @@ Reviews:https://www.google.com/search?q=$+reviews
 Wikipedia:https://wikipedia.org/wiki/$
 HEB:https://www.heb.com/search/?q=$
 Google Images:https://www.google.com/search?q=$&tbm=isch
-Weather:https://www.google.com/search?q=weather+$
+Weather:https://www.google.com/search?q=weather
 Google News:https://news.google.com/search?q=$
 Gmail:https://mail.google.com/mail/u/0/#search/$
 Google Calendar:https://calendar.google.com/calendar/u/0/r/search?q=$
