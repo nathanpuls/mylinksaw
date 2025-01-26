@@ -6,7 +6,7 @@ YouTube:https://www.youtube.com/results?search_query=$
 Define Word:https://www.google.com/search?q=define+$
 Google Maps:https://www.google.com/maps/search/$
 Thesaurus:https://www.thesaurus.com/browse/$
-Google Synonyms:https://www.google.com/search?q=$+synonyms
+Synonyms:https://www.google.com/search?q=$+synonyms
 Amazon:https://www.amazon.com/s?k=$
 GoDaddy:https://www.godaddy.com/domainsearch/find?domainToCheck=$
 Reviews:https://www.google.com/search?q=$+reviews
