@@ -1,4 +1,5 @@
 #check out these awesome links
+Page:https://linksaw.com/page/?user=nathanpuls&page=$
 Google Icons:https://fonts.google.com/icons?icon.size=24&icon.color=%235f6368&icon.query=$
 Google Fonts:https://fonts.google.com/?query=$
 Bible.com:https://duckduckgo.com/?q=!bible+$
@@ -94,6 +95,6 @@ Edit links.txt:https://github.com/nathanpuls/mylinksaw/edit/main/links.txt
 Family:https://photos.google.com/share/AF1QipNzxpw5kMerhsGLdbRDEkkLVgX36MUA9pLBXFM18h0SjYxMGvj1iDxXiANzqTgFxA?key=QzRYWEZZaFoxajIxY25mZ3hjc3JXb2FucndaSEpB
 Call:https://linksaw.com/call/
 Teams:https://teams.microsoft.com/v2/
-NYT Connections:https://www.nytimes.com/games/connections
+Connections:https://www.nytimes.com/games/connections
 class1:https://uttyler.instructure.com/courses/45365
 68:https://uttyler.instructure.com/courses/46876
