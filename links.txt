@@ -1,4 +1,5 @@
 #check out these awesome links
+/html:https://raw.githubusercontent.com/nathanpuls/mylinksaw/refs/heads/main/html/$.html
 /note:https://linksaw.com/note/?user=nathanpuls&note=$
 Example:example.com/cx
 Connections:https://www.nytimes.com/games/connections
