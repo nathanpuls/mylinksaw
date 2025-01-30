@@ -1,4 +1,5 @@
 #check out these awesome links
+/note:https://linksaw.com/note/?user=nathanpuls&note=$
 Example:example.com/cx
 Connections:https://www.nytimes.com/games/connections
 Page:https://linksaw.com/page/?user=nathanpuls&page=$
