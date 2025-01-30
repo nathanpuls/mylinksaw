@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Interactive Page</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Set background gradient and center content */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Heading style */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Button styles */
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            background-color: #ff7e5f;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background-color: #feb47b;
+            transform: scale(1.1);
+        }
+
+        /* Fun message style */
+        .message {
+            font-size: 1.5em;
+            font-weight: 500;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        /* Show message when button is clicked */
+        .message.visible {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Fun Page!</h1>
+    <button id="colorButton">Click to Change Background Color</button>
+    <p id="message" class="message">You've changed the background color! 🎉</p>
+
+    <script>
+        // Get elements
+        const colorButton = document.getElementById("colorButton");
+        const message = document.getElementById("message");
+
+        // Function to change background color and show message
+        colorButton.addEventListener("click", () => {
+            document.body.style.background = `linear-gradient(to right, ${randomColor()}, ${randomColor()})`;
+            message.classList.add("visible");
+        });
+
+        // Generate random color in hex format
+        function randomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+
+</body>
+</html>
