@@ -1,3 +1,7 @@
 where I am:mexico
 phone:555-555-5555
 color:#ffffff
+long: hey there this is some long text so let's see what happens and if this will be cut short or not - i hope so
+twins: ava and ella
+name: nathan
+day: thursday
