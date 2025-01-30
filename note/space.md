@@ -1,6 +1,7 @@
 ### **Markdown Example: Space Adventure 🚀**  
 
-![Astronaut floating in space](https://upload.wikimedia.org/wikipedia/commons/e/e1/Astronaut-EVA.jpg)  
+![Astronaut floating in space](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRnauLdzoX-jIJQjj8LogehXuB-7uOxK2z96tcHdEcXdDfBvsD8kD9y_jc&s=10) 
+
 
 **Welcome to the Space Adventure!** 🪐  
 Get ready to explore the wonders of the universe.  
