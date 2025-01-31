@@ -1,5 +1,5 @@
 #check out these awesome links
-/test app:https://linksaw.com/redirect/?user=nathanpuls&req=$2
+/test app:https://linksaw.com/redirect/?user=nathanpuls&req=$
 /note TOC:https://linksaw.com/note/toc.html?user=nathanpuls&subject=$
 /html:https://raw.githubusercontent.com/nathanpuls/mylinksaw/refs/heads/main/html/$.html
 /note:https://linksaw.com/note/?user=nathanpuls&note=$
