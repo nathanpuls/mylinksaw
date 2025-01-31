@@ -69,8 +69,8 @@ Font Awesome:https://fontawesome.com/v6/search?q=$&o=r&m=free
 Doc:https://qk.rs/doc
 qk.rs:https://qk.rs/$
 One Look Short Synonyms:https://www.onelook.com/thesaurus/?s=$&sortby=le0
-Translate to English:https://www.google.com/search?q=$+in+english
-Translate to Spanish:https://www.google.com/search?q=$+in+spanish
+In English:https://www.google.com/search?q=$+in+english
+In Spanish:https://www.google.com/search?q=$+in+spanish
 Lean Domain Search:https://leandomainsearch.com/search/?q=$
 Large Type:https://large-type.com/#$
 Who.is:https://who.is/whois/$
