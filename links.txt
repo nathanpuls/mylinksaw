@@ -2,7 +2,7 @@
 /test app:https://linksaw.com/redirect/?user=nathanpuls&req=$
 /note TOC:https://linksaw.com/note/toc.html?user=nathanpuls&subject=$
 /html:https://raw.githubusercontent.com/nathanpuls/mylinksaw/refs/heads/main/html/$.html
-/note:https://linksaw.com/note/?user=nathanpuls&note=$
+/note:https://linksaw.com/note/?id=nathanpuls/$
 Example:example.com/cx
 Connections:https://www.nytimes.com/games/connections
 Page:https://linksaw.com/page/?user=nathanpuls&page=$
