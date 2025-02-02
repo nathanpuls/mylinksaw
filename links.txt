@@ -1,4 +1,5 @@
 #check out these awesome links
+/page:https://linksaw.com/page/?id=nathanpuls/$
 /post:https://linksaw.com/post/?id=nathanpuls/$
 /test app:https://linksaw.com/redirect/?user=nathanpuls&req=$
 /note TOC:https://linksaw.com/note/toc.html?user=nathanpuls&subject=$
@@ -6,7 +7,7 @@
 /note:https://linksaw.com/note/?id=nathanpuls/$
 Example:example.com/cx
 Connections:https://www.nytimes.com/games/connections
-Page:https://linksaw.com/page/?user=nathanpuls&page=$
+
 Google Icons:https://fonts.google.com/icons?icon.size=24&icon.color=%235f6368&icon.query=$
 Google Fonts:https://fonts.google.com/?query=$
 Bible.com:https://duckduckgo.com/?q=!bible+$
