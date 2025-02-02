@@ -1,7 +1,5 @@
 # CREATE SEARCH PAGE
 
-Follow these steps to create your personalized search page:
-
 1. Sign up for an account at [github.com](https://github.com) (if you don’t already have one).
 2. Create a new repository. You can use this link: [https://github.com/new](https://github.com/new) (Repo must be on branch **"main"** NOT gh-pages).
 3. Name the repository **"mylinksaw"**.
