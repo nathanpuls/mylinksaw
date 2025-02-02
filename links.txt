@@ -1,4 +1,5 @@
 #check out these awesome links
+/post:https://linksaw.com/post/?id=nathanpuls/$
 /test app:https://linksaw.com/redirect/?user=nathanpuls&req=$
 /note TOC:https://linksaw.com/note/toc.html?user=nathanpuls&subject=$
 /html:https://raw.githubusercontent.com/nathanpuls/mylinksaw/refs/heads/main/html/$.html
