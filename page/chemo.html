@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemotherapy Monitoring Schedule</title>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap" rel="stylesheet">
+   
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            font-family: 'Urbanist', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 18px;
+            min-height: 100vh;
+            margin: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+            margin-top: 50px;
+        }
+        label, input[type="date"], button, .output {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .output {
+            max-width: 800px;
+            text-align: left;
+        }
+        
+        #generateButton {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #copyButton {
+            background-color: gray;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        /* Custom styling for date input */
+        input[type="date"] {
+            font-size: 16px; /* Increase font size for better visibility */
+            color: #333; /* Darker text color for contrast */
+            background-color: #f9f9f9; /* Light background color */
+            border: 1px solid #ccc; /* Light border */
+            padding: 8px;
+            border-radius: 4px;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            width: 100%;
+            display: inline-block;
+        }
+
+        /* Ensure the placeholder text is visible */
+        input[type="date"]::-webkit-input-placeholder {
+            color: #888;
+        }
+
+        /* Style the placeholder in Firefox */
+        input[type="date"]::-moz-placeholder {
+            color: #888;
+        }
+        
+        /* Style for input box focus */
+        input[type="date"]:focus {
+            border-color: #4CAF50;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <h1>Chemotherapy Monitoring Schedule</h1>
+    <label for="startDate">Choose a start date for chemotherapy:</label>
+    <input type="date" id="startDate" placeholder="MM/DD/YYYY">
+    <button id="generateButton" onclick="generateSchedule()">Generate Schedule</button>
+    <div class="output" id="output"></div>
+    <button id="copyButton" class="copy-button" onclick="copyToClipboard()">Copy Text</button>
+
+    <a id="topLeftLink" href="#"> 
+
+    <script>
+        function generateSchedule() {
+            let startDateInput = document.getElementById('startDate').value;
+            
+            // Default to today's date if no date is selected
+            if (!startDateInput) {
+                const today = new Date();
+                const year = today.getFullYear();
+                const month = String(today.getMonth() + 1).padStart(2, '0');
+                const day = String(today.getDate()).padStart(2, '0');
+                startDateInput = `${year}-${month}-${day}`;
+            }
+
+            const startDate = new Date(`${startDateInput}T12:00:00`);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+
+            function addDays(date, days) {
+                const result = new Date(date);
+                result.setDate(result.getDate() + days);
+                return result;
+            }
+
+            const week2 = addDays(startDate, 14);
+            const week4 = addDays(startDate, 28);
+            const week6 = addDays(startDate, 42);
+            const week8 = addDays(startDate, 56);
+            const week12 = addDays(startDate, 84);
+
+            const output = `
+                <p>Patient started *** on ${startDate.toLocaleDateString('en-US', options)}. @HE@ will need the following safety monitoring:</p>
+                <ul>
+                    <li>Week 2 - (due ${week2.toLocaleDateString('en-US', options)}): ALT, AST, CBC with diff with RTM visit</li>
+                    <li>Week 4 - (due ${week4.toLocaleDateString('en-US', options)}): CMP, Mg, Phos, CBC with diff, TSH, free T4, calcitonin, CEA, UA, urine protein/creatinine ratio, and 12-lead EKG and visit with local oncologist for symptom assessment</li>
+                    <li>Week 6 - (due ${week6.toLocaleDateString('en-US', options)}): ALT, AST, CBC with diff with RTM visit</li>
+                    <li>Week 8 - (due ${week8.toLocaleDateString('en-US', options)}): CMP, Mg, Phos, CBC with diff, TSH, free T4, calcitonin, CEA, UA, urine protein/creatinine ratio, and 12-lead EKG and visit with local oncologist for symptom assessment</li>
+                    <li>Week 12 - (due ${week12.toLocaleDateString('en-US', options)}): visit with Dr. Hu at MDA with preclinic labs, EKG, and ***</li>
+                </ul>
+            `;
+            document.getElementById('output').innerHTML = output;
+        }
+
+        function copyToClipboard() {
+            const output = document.getElementById('output');
+            const range = document.createRange();
+            range.selectNode(output);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+            document.getElementById('copyButton').innerText = 'Copied!';
+            setTimeout(() => {
+                document.getElementById('copyButton').innerText = 'Copy Text';
+            }, 2000);
+        }
+    </script>
+   
+
+</body>
+</html>
