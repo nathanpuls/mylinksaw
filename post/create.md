@@ -18,4 +18,4 @@ Follow these steps to create your personalized search page:
 10. After you are done adding links, click "Commit changes" (Changes may take a few minutes to take effect).
 11. Visit **YourGithubUsername.linksaw.com** to use your personalized links.
 
-## HAPPY SEARCHING
+### HAPPY SEARCHING
