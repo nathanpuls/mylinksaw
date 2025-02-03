@@ -1,2 +1,2 @@
-google:google.com
-yahoo:yahoo.com
+twins:wyr.es/twins
+kids:wyr.es/kids
