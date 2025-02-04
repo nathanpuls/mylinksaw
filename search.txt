@@ -1,4 +1,5 @@
 #check out these awesome links
+space:https://linksaw.com/post/?id=nathanpuls/space
 link:https://linksaw.com/link/?id=nathanpuls/$
 page:https://linksaw.com/page/?id=nathanpuls/$
 post:https://linksaw.com/post/?id=nathanpuls/$
